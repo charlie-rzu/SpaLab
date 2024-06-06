@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet');
+
+nav ul li a:hover,
+footer ul li a:hover,
+footer .social a:hover {
+    color: #FFFF00;
+}
+
+.botonServicio:hover,
+.membershipBoton p:hover {
+    background-color: #384001;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.encabezado {
+    background-color: #A3A656;
+    height: 70px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.cuenta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cuenta .usuario {
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+div .idioma {
+    display: flex;
+    padding-right: 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+.cuenta a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    text-align: center;
+    color: #000;
+}
+
+.imagen_main img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.mensaje_main {
+    position: absolute;
+    top: 14rem;
+    left: 13%;
+    width: 40rem;
+    text-align: left;
+}
+
+.mensaje_main h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: normal;
+    margin: 0 0 30px 0;
+}
+
+.mensaje_main p {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.reservas {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #F2F6F6;
+    height: 100px;
+}
+
+.reservas form {
+    margin-left: 8%;
+}
+
+.reservas input[type="text"] {
+    border-radius: 1rem;
+    height: 4rem;
+    width: 18rem;
+    border: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.reservas input[placeholder="CODIGO"] {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #9E9A9A;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 13rem;
+    border: 0px;
+    padding: 0 10px;
+    margin-left: 15px;
+}
+
+.cardServicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 134px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.servicio {
+    width: 20rem;
+}
+
+.servicio img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.encabezadoServicio {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #A3A656;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5.5rem;
+}
+
+.servicio h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.servicio p {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.precioServicio {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.precioServicio p {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.botonServicio {
+    align-items: center;
+    font-weight: bold;
+    background-color: #A3A656;
+    border-radius: 35px;
+    color: #fff;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    text-decoration: none;
+    width: 9rem;
+    font-size: medium;
+}
+
+.servicio button:hover {
+    background-color: #7a8560;
+}
+
+.membership {
+    height: 770px;
+    background-color: #F2F6F6;
+    text-align: center;
+    padding: 25px;
+}
+
+.membership h2 {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.cardMembership {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 15rem;
+    margin: 100px 0 0 0;
+    gap: 110px;
+}
+
+.cardMembership > * {
+    margin: 0 20px; 
+}
+
+.membership-level {
+    width: 19rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.membershipImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.membershipImgCircle {
+    border: 0.7rem solid #384001;
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+
+.membershipBoton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 18rem;
+}
+
+.membershipBoton p{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    background-color: #A3A656;
+    border-radius: 35px;
+    color: #fff;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.membership-level button:hover {
+    background-color: #7a8560;
+}
+
+.membershipBeneficios{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.membership-level ul {
+    margin: 0%;
+    width: 10rem;
+}
+
+.membership-level ul li {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer {
+    align-items: center;
+    background-color: #384001;
+    display: flex;
+    height: 97px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+    display: flex;
+    gap: 85px;
+}
+
+footer ul li a {
+    color: #A3A656;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer .social a {
+    color: #A3A656;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+footer .social img {
+    display: flex;
+    height: auto;
+    width: auto;
+}
